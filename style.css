@@ -1,0 +1,56 @@
+/* cssreset */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+div.header-container{
+    background-color: red;
+    text-align: center;
+    padding: 35px;
+    margin-top: 30px;
+}
+
+div.header-container h1{
+    color: white;
+    border: 4px white solid;
+    display: inline;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+div.navbar{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+div.navbar a{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+}
+div.banner-image img{
+    width: 100%;
+    border-bottom: red 10px solid;
+}
+div.header-container2 h1{
+    color: red;
+    text-align: center;
+}
+div.text-body p{
+line-height: 40px;
+text-align: justify;
+font-size:20px;
+margin-left: 150px;
+margin-right:150px;
+font-family: cursive;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
