@@ -22,19 +22,17 @@ div.header-container h1{
     display: inline;
     padding: 10px;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 30px; 
 }
 
 div.navbar{
     background-color: grey;
     text-align: center;
     padding: 10px;
-    
-
 }
 div.navbar a{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-decoration: none;
     color: white;
 }
@@ -47,29 +45,28 @@ div.banner-image img{
 div.header-container2 h1{
     color: red;
     text-align: center;
-
 }
+
 div.text-body p{
 line-height: 40px;
 text-align: justify;
 font-size:20px;
 margin-left: 150px;
 margin-right:150px;
-font-family: cursive;
-
 }
+
 footer{
     text-align: center;
     background-color: grey;
     color: white;
     padding: 20px;
 }
+
 h1.gallery-page{
     background-color: white;
     color: red;
     text-align: center;
     padding: 40px;
-
 }
 
 div.multi-image{
@@ -152,3 +149,10 @@ button{
 textarea{
     font-size: 15px;
 }
+.navbar a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
