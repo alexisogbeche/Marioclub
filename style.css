@@ -2,12 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-}
-
-/* cssreset */
-*{
-    padding: 0;
-    margin: 0;
+    font-family: cursive;
 }
 
 div.header-container{
@@ -47,7 +42,7 @@ div.header-container2 h1{
     color:white;
     position: absolute;
     top: 600px;
-    left: 800px;
+    left: 600px;
     border-radius: 10px;
     padding: 60px;
     border:solid 4px white ;
@@ -78,17 +73,18 @@ h1.gallery-page{
 
 div.multi-image{
     text-align: center;
-    
-
 }
+
 div.multi-image img{
     width: 45%;
     border-bottom:red 10px solid;
     margin: 5px;
 }
-div.intro-sectio{
+
+div.intro-section {
     margin: 20px 100px;
 }
+
 div.intro-section h1{
     text-align: center;
     color: red;
@@ -98,7 +94,7 @@ div.intro-section h1{
 div.intro-section p{
 font-size: 30px;
 text-align:justify;
-line: height 60px;
+line-height: 60px;
 }
 
 div.mario-friends{
@@ -170,6 +166,7 @@ h1:hover{
 }
 div.thumb-container{
     text-align: center;
+    margin: 30px 0;
 }
 
 .thumb-container img:hover{
