@@ -86,7 +86,9 @@ div.multi-image img{
     border-bottom:red 10px solid;
     margin: 5px;
 }
-
+div.intro-sectio{
+    margin: 20px 100px;
+}
 div.intro-section h1{
     text-align: center;
     color: red;
@@ -94,8 +96,9 @@ div.intro-section h1{
 }
 
 div.intro-section p{
-text-align: center;
 font-size: 30px;
+text-align:justify;
+line-height: 60px;
 }
 
 div.mario-friends{
@@ -164,6 +167,13 @@ h1:hover{
     background-color: red;
     color: white;
     border: none;
+}
+div.thumb-container{
+    text-align: center;
+}
+
+.thumb-container img:hover{
+    box-shadow: 8px 4px 4px lightgrey;
 }
 
 
