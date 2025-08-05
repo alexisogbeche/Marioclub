@@ -23,6 +23,7 @@ div.header-container h1{
     padding: 10px;
     border-radius: 30px;
     margin-top: 30px; 
+    
 }
 
 div.navbar{
@@ -43,8 +44,14 @@ div.banner-image img{
 
 }
 div.header-container2 h1{
-    color: red;
-    text-align: center;
+    color:white;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    border-radius: 10px;
+    padding: 60px;
+    border:solid 4px white ;
+    font-size: 60px;
 }
 
 div.text-body p{
