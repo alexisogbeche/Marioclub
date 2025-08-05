@@ -2,12 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-}
-
-/* cssreset */
-*{
-    padding: 0;
-    margin: 0;
+    font-family: cursive;
 }
 
 div.header-container{
@@ -23,6 +18,7 @@ div.header-container h1{
     padding: 10px;
     border-radius: 30px;
     margin-top: 30px; 
+    
 }
 
 div.navbar{
@@ -43,8 +39,14 @@ div.banner-image img{
 
 }
 div.header-container2 h1{
-    color: red;
-    text-align: center;
+    color:white;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 60px;
+    border:solid 4px white ;
+    font-size: 60px;
 }
 
 div.text-body p{
@@ -57,7 +59,7 @@ margin-right:150px;
 
 footer{
     text-align: center;
-    background-color: grey;
+    background-color: black;
     color: white;
     padding: 20px;
 }
@@ -71,13 +73,16 @@ h1.gallery-page{
 
 div.multi-image{
     text-align: center;
-    
-
 }
+
 div.multi-image img{
     width: 45%;
     border-bottom:red 10px solid;
     margin: 5px;
+}
+
+div.intro-section {
+    margin: 20px 100px;
 }
 
 div.intro-section h1{
@@ -87,8 +92,9 @@ div.intro-section h1{
 }
 
 div.intro-section p{
-text-align: center;
 font-size: 30px;
+text-align:justify;
+line-height: 60px;
 }
 
 div.mario-friends{
@@ -152,6 +158,19 @@ textarea{
 .navbar a:hover{
     color: red;
     text-decoration: underline;
+}
+h1:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+div.thumb-container{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.thumb-container img:hover{
+    box-shadow: 8px 4px 4px lightgrey;
 }
 
 
